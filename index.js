@@ -12,7 +12,7 @@ async function main() {
         `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nMade with ❤️ by @virulvdio\n\nSend any terabox link to download.`,
         Markup.inlineKeyboard([
           Markup.button.url(" Channel", "https://t.me/virulvdio"),
-          Markup.button.url("Report bug", "https://t.me/Armanidrisi_bot"),
+          Markup.button.url("Report bug", "https://t.me/LRB2K"),
         ]),
       );
     } catch (e) {
